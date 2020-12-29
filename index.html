@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Any text</label>
+    <input type="text" id="text" placeholder="Any text" name="text" required style=" height:30px;margin-bottom: 10px;"/> <br/>
+    <label>email</label>
+    <input type="email" id="email" placeholder="email" name="email" pattern="[^ @]*@[^ @]*" style=" height:30px;margin-bottom: 10px;" required/> <br/>
+    <label>any Url</label>
+    <input type="url" id="url" placeholder="Any url give" name="url" style=" height:30px;margin-bottom: 10px;" required/> <br/>
+    <button id="add-item" type="submit" name="button">Submit</button>
+    <div id="textValue" ></div>
+    <div id="emailValue" style="display: inline-block;"></div>
+    <div id="UrlValue"></div>
+    <script src="./template.js"></script>
+</body>
+</html>
